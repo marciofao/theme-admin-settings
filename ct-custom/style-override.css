@@ -1,0 +1,183 @@
+
+
+
+.site-callout{
+	padding: 15px 0px 15px;
+}
+.site-callout p{
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	max-width: 1280px;
+	margin: 0 auto;
+	
+}
+.site-callout .callus{
+color: #be3600;
+	margin-right:41px;
+}
+.site-callout .number{
+color: white;
+}
+
+.site-callout{
+	background: #ff6200ff;
+}
+.site-header{
+	background: #f8f8f8;
+}
+.site-branding{
+	display: flex;
+}
+.header-contents{
+	display: flex;
+flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	height: 145px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.breadgrumbs, a{
+	color: #929292;
+	text-decoration: none;
+}
+
+.breadcrumb_last{
+	color: #525252;
+	font-weight: bold;
+}
+.main-navigation{
+	
+	text-transform: uppercase;
+	display: flex;
+    flex-direction: row-reverse;
+	
+}
+.main-navigation a{
+	color:#454545;
+	padding:10px;
+	font-size:16px
+}
+
+.main-navigation a:hover, .main-navigation a:active{
+	font-weight:bold;
+}
+
+nav .sub-menu{
+	background: white;
+	border: 2px solid black;
+	
+}
+article h1, .wp-block-heading, .reach-us h2{
+	color: #ff6505;
+}
+.wp-block-separator{
+	border: 0;
+	border: 5px solid #525252;
+	background: #525252;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	max-width:1280px;
+	margin: 0 auto;
+}
+main article{
+	width: 100%;
+	color: #929292;
+}
+
+main .wp-block-heading{
+	font-weight: 100;
+}
+
+
+
+
+.wpcf7 input, .wpcf7 textarea{
+	width: 100%;
+	border-radius:0;
+	background: #f6f6f6;
+	border: none;
+	padding: 10px;
+}
+.wpcf7 textarea{
+	resize: none;
+	height: 148px;
+}
+
+.wpcf7 input[type="submit"] {
+	
+  margin-top: 10px;
+	color: white;
+	width: unset;
+	padding: 18px;
+	background: #ff6505;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size:15px;
+	border-radius:0;
+}
+
+.wpcf7 input[type="submit"]:hover{
+	color: black;
+}
+
+.wpcf7 .side-by-side{
+	display: flex;
+	justify-content: space-between;
+}
+.wpcf7 .side-by-side p{
+	display: flex;
+	justify-content: space-between;
+    width: 100% !important;
+	gap: 7px;
+}
+
+.wpcf7 p{
+	margin: 0;
+	margin-bottom: 14px;
+}
+
+.reach-us h2{
+	text-transform: uppercase;
+	font-weight:100;
+}
+
+.reach-us p{
+	white-space: pre-line
+}
+
+.contact-info p{
+	
+}
+.social-links a{
+	text-decoration: none;
+}
+main .dashicons{
+	font-size: 23px;
+	background: #373737;
+	color: white;
+	padding: 9px;
+	height: 40px;
+    width: 40px;
+
+}
+
+.access{
+	display: inline-block;
+    float: right;
+}
+.access .item{
+	color: #be3600;
+	margin-left: 50px
+}
+
+.access a:nth-child(2){
+	color: white;
+}
+
+
